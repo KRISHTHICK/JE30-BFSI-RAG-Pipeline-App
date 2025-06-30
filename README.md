@@ -20,3 +20,13 @@ git clone https://github.com/yourusername/bfsi-rag-pipeline.git
 cd bfsi-rag-pipeline
 pip install -r requirements.txt
 ollama pull llama3
+
+🔧 How to Run
+Install dependencies:
+pip install streamlit pypdf2 chromadb langchain ollama
+
+Pull LLM model:
+ollama pull llama3
+
+Run the app:
+streamlit run app.py
